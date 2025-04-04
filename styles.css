@@ -61,7 +61,20 @@ section {
     margin-right: 20px;
 }
 
-.project-card, .blog-post {
+/* Skills */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+/* Cards */
+.project-card,
+.blog-post {
     background: #ffffff;
     color: #333;
     border-radius: 10px;
@@ -70,6 +83,7 @@ section {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Footer */
 footer {
     background: #0f2027;
     color: #ffffff;
@@ -86,5 +100,6 @@ footer {
 
     .profile-pic {
         margin-bottom: 20px;
+        margin-right: 0;
     }
 }
